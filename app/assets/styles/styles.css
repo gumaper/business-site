@@ -1,5 +1,10 @@
 @import 'normalize.css';
 @import 'bootstrap';
+@import 'font-awesome';
+@import 'animate.css';
 @import 'base/_global';
 @import 'base/_variables';
 @import 'base/_mixins';
+@import 'modules/_btn';
+@import 'modules/_bg-parallax';
+@import 'modules/_site-home';

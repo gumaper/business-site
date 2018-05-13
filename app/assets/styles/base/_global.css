@@ -1,6 +1,11 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #333;
+html{ 
+    height: 100%;
+    
+    body {
+        font-family: 'Roboto Condensed', sans-serif;
+        color: #333;
+        height: 100%;
+    }
 }
 
 img {

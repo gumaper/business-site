@@ -1,0 +1,14 @@
+.btn {
+    padding: 12px 26px;
+    border: 2px solid #fff;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+
+    &-home:hover {
+        background-color: #fff;
+        color: $mainGray;
+    }
+}
