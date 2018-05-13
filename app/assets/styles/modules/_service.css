@@ -1,0 +1,35 @@
+.service {
+    
+    &-item {
+        padding: 20px 0 20px 0;
+        margin-bottom: 20px;
+        cursor: pointer;
+
+        &__icon {
+            color: $mainGreen;
+            float: left;
+            padding: 15px;
+            margin-right: 25px;
+            width: 75px;
+            text-align: center;
+        }
+
+        &__title h3{
+            font-size: 1.25rem;
+            font-weight: 400;
+            margin: 0 0 10px 0;
+        }
+
+        &__description p {
+            margin: 0;
+            padding-left: 85px;
+        }
+
+    }
+
+}
+
+.service-item:hover .service-item__icon {
+    color: #fff;
+    background-color: $mainGreen;
+}
