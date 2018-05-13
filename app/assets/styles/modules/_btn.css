@@ -11,4 +11,14 @@
         background-color: #fff;
         color: $mainGray;
     }
+
+    &-blue {
+        border-color: $mainGreen;
+        color: $mainGreen;
+    }
+
+    &-blue:hover {
+        background-color: $mainGreen;
+        color: #fff;
+    }
 }

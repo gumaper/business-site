@@ -6,6 +6,7 @@
 @import 'base/_mixins';
 @import 'modules/_btn';
 @import 'modules/_bg-parallax';
-@import 'modules/_site-home';
+@import 'modules/_home';
 @import 'modules/_content-box__default';
 @import 'modules/_service';
+@import 'modules/_about';
