@@ -1,0 +1,26 @@
+.social-list {
+    padding-left: 0;
+
+    li {
+        list-style: none;
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        margin-right: 6px;
+        margin-top: 10px;
+    }
+
+    &__icon i {
+        font-size: 1.1rem;
+    }
+
+    &__icon-gray i {
+        color: $mainBlue;
+    }
+
+    &__icon i:hover {
+        color: $mainGreen;
+    }
+
+
+}

@@ -1,6 +1,7 @@
-import magnificPopup from 'magnific-popup';
 import Work from './modules/Work';
-import $ from 'jquery';
+import 'magnific-popup';
+import 'bootstrap';
+import 'jquery';
 
 
 var work = new Work();

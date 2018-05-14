@@ -12874,11 +12874,6 @@ p {
     background-color: #34c6d3;
 }
 
-.about {
-    margin-bottom: 60px;
-
-}
-
 .about__content-box {
         float: left;
         height: 700px;
@@ -12928,4 +12923,56 @@ p {
 .work__img-wrapper img:hover {
         -webkit-transform: scale(1.5);
                 transform: scale(1.5);
+    }
+
+.team-member {
+        margin: 0 10px;
+    }
+
+.team-member__info {
+            padding: 10px 0 30px 0;
+            text-align: center;
+        }
+
+.team-member__name {
+            font-size: 1.375rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            padding-top: 2px;
+        }
+
+.team-member__designation {
+            color: #34c6d3;
+            font-size: .95rem;
+            font-weight: 700;
+            font-style: italic;
+            letter-spacing: 1px;
+            margin-top: 5px;
+        }
+
+.social-list {
+    padding-left: 0;
+
+
+}
+
+.social-list li {
+        list-style: none;
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        margin-right: 6px;
+        margin-top: 10px;
+    }
+
+.social-list__icon i {
+        font-size: 1.1rem;
+    }
+
+.social-list__icon-gray i {
+        color: #64707b;
+    }
+
+.social-list__icon i:hover {
+        color: #34c6d3;
     }
