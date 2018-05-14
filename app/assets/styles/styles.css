@@ -1,12 +1,15 @@
 @import 'normalize.css';
 @import 'bootstrap';
 @import 'animate.css';
+@import 'magnific-popup';
 @import 'base/_global';
 @import 'base/_variables';
 @import 'base/_mixins';
+@import 'modules/_row';
 @import 'modules/_btn';
 @import 'modules/_bg-parallax';
 @import 'modules/_home';
 @import 'modules/_content-box__default';
 @import 'modules/_service';
 @import 'modules/_about';
+@import 'modules/_work';

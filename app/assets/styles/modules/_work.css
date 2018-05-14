@@ -1,0 +1,14 @@
+.work {
+
+    &__img-wrapper {
+        overflow: hidden;
+    }
+
+    &__img-wrapper img {
+        transition: .5s ease;
+    }
+
+    &__img-wrapper img:hover {
+        transform: scale(1.5);
+    }
+}
