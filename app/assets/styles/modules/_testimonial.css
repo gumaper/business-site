@@ -1,0 +1,57 @@
+.testimonial {
+
+    &__bg-cover {
+        background-image: url('../../assets/images/bg-testimonials.jpg');
+    }
+
+    &__img {
+        border-radius: 50%;
+        max-width: 120px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    &__info {
+        text-align: center;
+
+        p {
+            margin-top: 16px;
+        }
+    }
+    
+    &__info-1 {
+        padding-right: 30px;
+    }
+
+    &__info-2 {
+        padding-left: 30px;
+    }
+
+    &__text {
+        font-family: Georgia;
+        font-style: italic;
+        position: relative;
+       
+
+        p {
+            color: #fff;
+        }
+    }
+
+    &__author p {
+        color: #fff;
+    }
+
+    &__author strong {
+        display: block;
+        font-weight: 700;
+    }
+}
+
+.testimonial .content-box__default {
+    background-color: rgba(0, 0, 0, .3);
+
+    &-title {
+        color: #fff;
+    }
+}

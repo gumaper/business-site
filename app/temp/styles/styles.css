@@ -12900,7 +12900,6 @@ p {
 
 .about__description {
         margin-bottom: 30px;
-        min-width: 400px;
     }
 
 .about__bg-diagonal {
@@ -12975,4 +12974,58 @@ p {
 
 .social-list__icon i:hover {
         color: #34c6d3;
+    }
+
+.testimonial__bg-cover {
+        background-image: url('../../assets/images/bg-testimonials.jpg');
+    }
+
+.testimonial__img {
+        border-radius: 50%;
+        max-width: 120px;
+        margin: 0 auto;
+        display: block;
+    }
+
+.testimonial__info {
+        text-align: center;
+    }
+
+.testimonial__info p {
+            margin-top: 16px;
+        }
+
+.testimonial__info-1 {
+        padding-right: 30px;
+    }
+
+.testimonial__info-2 {
+        padding-left: 30px;
+    }
+
+.testimonial__text {
+        font-family: Georgia;
+        font-style: italic;
+        position: relative;
+    }
+
+.testimonial__text p {
+            color: #fff;
+        }
+
+.testimonial__author p {
+        color: #fff;
+    }
+
+.testimonial__author strong {
+        display: block;
+        font-weight: 700;
+    }
+
+.testimonial .content-box__default {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.testimonial .content-box__default-title {
+        color: #fff;
     }
