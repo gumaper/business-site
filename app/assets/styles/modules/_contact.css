@@ -1,0 +1,49 @@
+.contact {
+    background-color: $mainGray;
+    padding-top: 30px;
+
+    &__left {
+
+        & h3 {
+            color: #fff;
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+
+        & p {
+            color: #fff;
+            margin-bottom: 30px;
+        }
+    }
+
+    &__info {
+
+        & adress {
+            color: #fff;
+            font-weight: 700;
+        }
+
+        & strong {
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+    }
+
+    &__right {
+        
+        & h3 {
+            color: #fff;
+            font-size: 1.6rem;
+            font-weight: 700;
+        }    
+    }
+
+}
+
+.form-control {
+    border-radius: 0;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+}

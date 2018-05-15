@@ -13098,3 +13098,44 @@ p {
 .price__btn {
         margin-top: 50px;
     }
+
+.contact {
+    background-color: #41464b;
+    padding-top: 30px;
+
+}
+
+.contact__left h3 {
+            color: #fff;
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+
+.contact__left p {
+            color: #fff;
+            margin-bottom: 30px;
+        }
+
+.contact__info adress {
+            color: #fff;
+            font-weight: 700;
+        }
+
+.contact__info strong {
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+.contact__right h3 {
+            color: #fff;
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+
+.form-control {
+    border-radius: 0;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+}
