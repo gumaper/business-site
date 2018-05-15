@@ -21,4 +21,9 @@
         background-color: $mainGreen;
         color: #fff;
     }
+
+    &-white {
+        border-color: #fff;
+        color: #fff;
+    }
 }

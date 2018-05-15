@@ -12772,6 +12772,11 @@ p {
         color: #fff;
     }
 
+.btn-white {
+        border-color: #fff;
+        color: #fff;
+    }
+
 .bg-parallax {
     background-repeat: no-repeat;
     background-size: cover;
@@ -13028,4 +13033,68 @@ p {
 
 .testimonial .content-box__default-title {
         color: #fff;
+    }
+
+.price {
+    width: 100%;
+
+}
+
+.price__info strong {
+        font-weight: 700;
+    }
+
+.price--box {
+        border-radius: 6px;
+        box-shadow: 0 0 10px 0 rgba(52, 198, 211, 0.4);
+        padding: 50px 0;
+        margin: 40px 0;
+        text-align: center;    
+    }
+
+.price--box__middle {
+        background-color: #34c6d3;
+        padding: 90px 0;
+        margin: 0;
+    }
+
+.price__title {
+        background: #34c6d3;
+        color: #fff;
+        display: inline-block;
+        padding: 7px 15px 7px 15px;
+        font-size: 0.9rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0 0 30px 0;
+    }
+
+.price__title--middle {
+        color: #34c6d3;
+        background-color: #fff;
+    }
+
+.price__value {
+        font-size: 2.1rem;
+        font-weight: 700;
+        margin-bottom: 30px;   
+    }
+
+.price__value sup {
+        font-size: 1.2rem;
+        font-weight: normal;
+    }
+
+.price__info {
+        list-style: none;
+        padding-left: 0;
+        margin: 0 5px;
+    }
+
+.price__info--middle p {
+        color: #fff;
+    }
+
+.price__btn {
+        margin-top: 50px;
     }
