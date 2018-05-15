@@ -1,13 +1,12 @@
 @import 'normalize.css';
 @import 'bootstrap';
 @import 'animate.css';
-@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
 @import 'magnific-popup';
 @import 'base/_global';
 @import 'base/_variables';
 @import 'base/_mixins';
 @import 'modules/_site-header';
-@import 'modules/_primary-nav';
+@import 'modules/_teste';
 @import 'modules/_row';
 @import 'modules/_btn';
 @import 'modules/_bg-parallax';

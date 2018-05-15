@@ -21,8 +21,6 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="/assets/images/favicon.ico">
 
-    <!-- Bootstrap -->
-
     <!-- Custom Styles-->
     <link rel="stylesheet" href="temp/styles/styles.css">
 </head>
@@ -33,10 +31,6 @@
     <header class="site-header">
         <div class="container">
             
-            <div class="site-header__logo">
-                <img src="assets/images/.svg">   
-            </div>
-                    
             <div class="site-header__menu-icon">
                 <div class="site-header__menu-icon__middle"></div>
             </div>
@@ -44,13 +38,13 @@
             <div class="site-header__menu-content">      
                 <nav class="primary-nav primary-nav--pull-right">
                     <ul>
-                        <li><a href="#site-service" id="service-link">Serviços</a></li>
-                        <li><a href="#site-about" id="about-link">Sobre Nós</a></li>
-                        <li><a href="#site-work" id="work-link">Trabalhos</a></li>
-                        <li><a href="#site-team" id="team-link">Equipe</a></li>
-                        <li><a href="#site-testimonials" id="testimonials-link">Clientes</a></li>
-                        <li><a href="#site-price" id="price-link">Planos</a></li>
-                        <li><a href="#site-contact" id="contact-link">Contato</a></li>
+                        <li><a href="#site-service" id="service-link" class="smotth-scroll">Serviços</a></li>
+                        <li><a href="#site-about" id="about-link" class="smotth-scroll">Sobre Nós</a></li>
+                        <li><a href="#site-work" id="work-link" class="smotth-scroll">Trabalhos</a></li>
+                        <li><a href="#site-team" id="team-link" class="smotth-scroll">Equipe</a></li>
+                        <li><a href="#site-testimonial" id="testimonials-link" class="smotth-scroll">Clientes</a></li>
+                        <li><a href="#site-price" id="price-link" class="smotth-scroll">Planos</a></li>
+                        <li><a href="#site-contact" id="contact-link" class="smotth-scroll">Contato</a></li>
                     </ul>
                 </nav>
             </div>
@@ -60,18 +54,18 @@
     <!-- Header Ends -->
     
     <!-- Home -->
-    <section id="site-home" class="home">
+    <section id="site-home" class="home page-section" data-matching-link="#service-link">
 
         <div class="home__cover bg-parallax animated fadeIn">
             <div class="home__content-box">
                 <div class="home__content-box-inner">
 
                     <div class="home__text-content animated zoomIn">
-                        <h3 class="home__title ">Lorem ipsum<br>sit amet consectetur</h3>
+                        <h3 class="home__title">Lorem ipsum<br>sit amet consectetur</h3>
                     </div>
 
                     <div class="home__btn animated zoomIn">
-                        <a class="btn btn-home" href="#work" role="button" title="View Our Work">View Our Work</a>
+                        <a class="btn btn-home" href="#site-work" role="button" title="View Our Work">Veja nossos trabalhos</a>
                     </div>
 
                 </div>
@@ -82,7 +76,7 @@
     <!-- Home Ends -->
 
     <!-- Services -->
-    <section id="site-service" class="service">
+    <section id="site-service" class="service page-section" data-matching-link="#about-link">
         <div class="service__content-box content-box__default">
 
             <div class="content-box__default">
@@ -211,7 +205,7 @@
     <!-- Services Ends -->
 
     <!-- About -->
-    <section id="site-about" class="about">
+    <section id="site-about" class="about page-section" data-matching-link="#work-link">
         
         <!-- About Righ Side BG -->
         <div class="about__bg-diagonal bg-parallax"></div>
@@ -257,7 +251,7 @@
     <!-- About Ends -->
 
     <!-- Work -->
-    <section id="site-work" class="work">
+    <section id="site-work" class="work page-section" data-matching-link="#team-link">
 
         <div class="content-box__default animated">
             <h3 class="content-box__default-title">Trabalhos</h3>
@@ -347,7 +341,7 @@
     <!-- Work Ends -->
 
     <!-- Team -->
-    <section id="site-team" class="team">
+    <section id="site-team" class="team page-section" data-matching-link="#testimonials-link">
 
         <div class="content-box__default">
             <h3 class="content-box__default-title">Equipe</h3>
@@ -415,7 +409,7 @@
     <!-- Team Ends -->
 
     <!-- Testimonials -->
-    <section id="site-testimonial" class="testimonial">
+    <section id="site-testimonial" class="testimonial page-section" data-matching-link="#price-link">
         <div class="testimonial__bg-cover bg-parallax">
             <div class="content-box__default">
                 <h3 class="content-box__default-title content-box__default-title-white">O QUE NOSSOS CLIENTES DIZEM</h3>
@@ -465,7 +459,7 @@
     <!-- Testimonials Ends -->
 
     <!-- Price -->
-    <section id="site-price" class="price">
+    <section id="site-price" class="price page-section" data-matching-link="#contact-link">
 
         <div class="content-box__default">
             <h3 class="content-box__default-title">Planos</h3>
@@ -590,7 +584,7 @@
     <!-- Price Ends -->
 
     <!-- Contact and Footer -->
-    <section id="site-contact" class="contact">
+    <section id="site-contact" class="contact page-section">
         <div class="container">
             <div class="row">
 
