@@ -21,8 +21,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="/assets/images/favicon.ico">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap -->
 
     <!-- Custom Styles-->
     <link rel="stylesheet" href="temp/styles/styles.css">
@@ -30,6 +29,36 @@
 
 <body>
 
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            
+            <div class="site-header__logo">
+                <img src="assets/images/.svg">   
+            </div>
+                    
+            <div class="site-header__menu-icon">
+                <div class="site-header__menu-icon__middle"></div>
+            </div>
+                        
+            <div class="site-header__menu-content">      
+                <nav class="primary-nav primary-nav--pull-right">
+                    <ul>
+                        <li><a href="#site-service" id="service-link">Serviços</a></li>
+                        <li><a href="#site-about" id="about-link">Sobre Nós</a></li>
+                        <li><a href="#site-work" id="work-link">Trabalhos</a></li>
+                        <li><a href="#site-team" id="team-link">Equipe</a></li>
+                        <li><a href="#site-testimonials" id="testimonials-link">Clientes</a></li>
+                        <li><a href="#site-price" id="price-link">Planos</a></li>
+                        <li><a href="#site-contact" id="contact-link">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        
+        </div>
+    </header>
+    <!-- Header Ends -->
+    
     <!-- Home -->
     <section id="site-home" class="home">
 
@@ -38,7 +67,7 @@
                 <div class="home__content-box-inner">
 
                     <div class="home__text-content animated zoomIn">
-                        <h3 class="home__title ">Watch Out<br>The Modern Responsive Website!</h3>
+                        <h3 class="home__title ">Lorem ipsum<br>sit amet consectetur</h3>
                     </div>
 
                     <div class="home__btn animated zoomIn">
@@ -57,7 +86,7 @@
         <div class="service__content-box content-box__default">
 
             <div class="content-box__default">
-                <h3 class="content-box__default-title">Services</h3>
+                <h3 class="content-box__default-title">Serviços</h3>
                 <div class="content-box__default-title-underline"></div>
             
 
@@ -198,7 +227,7 @@
                             <div class="about__content-box-inner">
                             
                                 <div class="content-box__default">
-                                    <h3 class="content-box__default-title about__title">About</h3>
+                                    <h3 class="content-box__default-title about__title">Sobre nós</h3>
                                     <div class="content-box__default-title-underline about__title-underline"></div>
                                     
 
@@ -211,7 +240,7 @@
                                     </div>
 
                                     <div class="about__btn animated fadeInUp">
-                                        <a class="btn btn-blue" href="#work" roles="button">Our Work</a>
+                                        <a class="btn btn-blue" href="#work" roles="button">Nosso trabalho</a>
                                     </div>
 
                                 </div>
@@ -231,7 +260,7 @@
     <section id="site-work" class="work">
 
         <div class="content-box__default animated">
-            <h3 class="content-box__default-title">Work</h3>
+            <h3 class="content-box__default-title">Trabalhos</h3>
             <div class="content-box__default-title-underline"></div>
         
 
@@ -321,7 +350,7 @@
     <section id="site-team" class="team">
 
         <div class="content-box__default">
-            <h3 class="content-box__default-title">Team</h3>
+            <h3 class="content-box__default-title">Equipe</h3>
             <div class="content-box__default-title-underline"></div>
         
 
@@ -389,7 +418,7 @@
     <section id="site-testimonial" class="testimonial">
         <div class="testimonial__bg-cover bg-parallax">
             <div class="content-box__default">
-                <h3 class="content-box__default-title content-box__default-title-white">What Our Customers Say</h3>
+                <h3 class="content-box__default-title content-box__default-title-white">O QUE NOSSOS CLIENTES DIZEM</h3>
                 <div class="content-box__default-title-underline"></div>
             
                 <div class="container">
@@ -405,7 +434,7 @@
                                 <div class="testimonial__author">
                                     <p>
                                         <strong>Larry Page</strong>
-                                        <span>CEO & Founder - Google</span>
+                                        <span>CEO & Fundador - Google</span>
                                     </p>
                                 </div>
                             </div>
@@ -421,7 +450,7 @@
                                 <div class="testimonial__author">
                                     <p>
                                         <strong>Elon Musk</strong>
-                                        <span>CEO & Founder - SpaceX</span>
+                                        <span>CEO & Fundador - SpaceX</span>
                                     </p>
                                 </div>
                             </div>
@@ -439,7 +468,7 @@
     <section id="site-price" class="price">
 
         <div class="content-box__default">
-            <h3 class="content-box__default-title">Pricing</h3>
+            <h3 class="content-box__default-title">Planos</h3>
             <div class="content-box__default-title-underline"></div>
         
 
@@ -560,7 +589,7 @@
     </section>
     <!-- Price Ends -->
 
-    <!-- Contact -->
+    <!-- Contact and Footer -->
     <section id="site-contact" class="contact">
         <div class="container">
             <div class="row">
@@ -618,47 +647,26 @@
 
             </div>
         </div>
+
+        <!-- Footer -->
+        <div id="site-footer" class="footer">
+
+            <div class="container">
+                <div class="row">
+    
+                    <div class="col-md-12">
+                        <div class="footer__copyrights">
+                            <p>Copyrights &copy; 2018 Todos os Direitos Reservados By Projeto.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+    
+        </div>
+        <!-- Footer Ends -->
     </section>
     <!-- Contact Ends -->
-
-    <!-- Footer -->
-    <div id="site-footer" class="footer">
-
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-6">copyrights</div>
-                <div class="col-md-6">Footer Menu</div>
-                
-            </div>
-        </div>
-
-    </div>
-    <!-- Footer Ends -->
-
-    <!-- temporary space -->
-    <br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <script src="/temp/scripts/App.js"></script>

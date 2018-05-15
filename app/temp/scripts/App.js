@@ -12315,9 +12315,9 @@ var _Work2 = _interopRequireDefault(_Work);
 
 __webpack_require__(1);
 
-__webpack_require__(4);
-
 __webpack_require__(0);
+
+__webpack_require__(4);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
