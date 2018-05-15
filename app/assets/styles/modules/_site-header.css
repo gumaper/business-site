@@ -18,33 +18,6 @@
         }
     }
     
-    &__btn-container {
-        
-        @mixin atMedium {
-            float: right;
-        }
-    }
-    
-    &__logo {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%) scale(0.8);
-        transition: transform .3s ease-out;
-        transform-origin: 50% 0%;
-        background-color: $mainBlue;
-        padding: 25px 36px;
-        
-        @mixin atMedium {
-            left: auto;
-            transform: translateX(0);
-            
-            .site-header--dark & {
-                transform: scale(.545);
-            }
-        }
-    }
-    
     &__menu-icon {
         width: 20px;
         height: 19px;
@@ -90,21 +63,6 @@
         
         @mixin atMedium {
             display: none;
-        }
-    }
-    
-    &__menu-icon--close-x {
-        &::before {
-            transform: rotate(45deg) scaleX(1.25);
-        }
-        
-        .site-header__menu-icon__middle {
-            opacity: 0;
-            transform: scaleX(0);
-        }
-        
-        &::after {
-            transform: rotate(-45deg) scaleX(1.25) translateY(1px);
         }
     }
     
