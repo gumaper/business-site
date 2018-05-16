@@ -69,6 +69,13 @@
         margin: 0 5px;
     }
 
+    &__info p {
+        
+        @mixin atSmall {
+            font-size: 1rem;
+        }
+    }
+
     &__info--middle p {
         color: #fff;
     }

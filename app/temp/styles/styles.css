@@ -12740,10 +12740,6 @@ p {
     color: #64707b;
     font-size: 0.8rem;
     font-weight: 300;
-
-    @atSmall {
-        font-size: 1rem;
-    }
 }
 
 .site-header {
@@ -12914,11 +12910,11 @@ p {
         font-weight: 300;
         text-decoration: none;
         display: block;
-        font-size: .8rem;
+        font-size: .9rem;
         background-color: rgba(47, 85, 114, .5);
-        font-size: 1rem;
         padding: 12px 0; 
         background-color: transparent;
+        text-transform: uppercase;
         }
 
 .primary-nav a:hover {
@@ -13147,6 +13143,13 @@ p {
         margin-bottom: 30px;
     }
 
+@media (min-width: 768px) {
+
+.about__description p {
+                font-size: 1rem
+        }
+    }
+
 .about__bg-diagonal {
         width: 100%;
         height: 350px;
@@ -13314,6 +13317,13 @@ p {
             color: #fff;
         }
 
+@media (min-width: 768px) {
+
+.testimonial__text p {
+                font-size: 1rem
+        }
+    }
+
 .testimonial__author p {
         color: #fff;
     }
@@ -13401,6 +13411,13 @@ p {
         list-style: none;
         padding-left: 0;
         margin: 0 5px;
+    }
+
+@media (min-width: 768px) {
+
+.price__info p {
+            font-size: 1rem
+    }
     }
 
 .price__info--middle p {

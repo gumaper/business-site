@@ -43,11 +43,11 @@
         font-weight: 300;
         text-decoration: none;
         display: block;
-        font-size: .8rem;
+        font-size: .9rem;
         background-color: rgba(47, 85, 114, .5);
-        font-size: 1rem;
         padding: 12px 0; 
         background-color: transparent;
+        text-transform: uppercase;
         }
 
         a:hover {

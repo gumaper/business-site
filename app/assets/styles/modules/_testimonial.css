@@ -43,6 +43,10 @@
 
         p {
             color: #fff;
+
+            @mixin atSmall {
+                font-size: 1rem;
+            }
         }
     }
 

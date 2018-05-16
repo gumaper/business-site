@@ -30,6 +30,12 @@
 
     &__description {
         margin-bottom: 30px;
+
+        p {
+            @mixin atSmall {
+                font-size: 1rem;
+            }
+        }
     }
 
     &__bg-diagonal {
