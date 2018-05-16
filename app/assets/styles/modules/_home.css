@@ -3,7 +3,7 @@
 
     &__cover {
         height: 100%;
-        background-image: url("../../assets/images/bg-home.jpg");
+        background-image: url("../../assets/images/bg-home-min.jpg");
     }
 
     &__content-box {

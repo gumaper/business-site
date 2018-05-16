@@ -12758,7 +12758,7 @@ p {
 
 .site-header {
         position: fixed;
-        background-color: rgba(47, 85, 114, .3)
+        background-color: rgba(0, 0, 0, .6)
 }
         
         .site-header--dark {
@@ -12970,7 +12970,7 @@ p {
 
 .home__cover {
         height: 100%;
-        background-image: url("../../assets/images/bg-home.jpg");
+        background-image: url("../../assets/images/bg-home-min.jpg");
     }
 
 .home__content-box {
@@ -13090,7 +13090,7 @@ p {
         width: 60%;
         height: 700px;
         float: right;
-        background-image: url("../../assets/images/bg-about.jpg");
+        background-image: url("../../assets/images/bg-about-min.jpg");
         border-left: 200px solid white;
         border-top: 700px solid transparent;
     }
@@ -13161,7 +13161,7 @@ p {
     }
 
 .testimonial__bg-cover {
-        background-image: url('../../assets/images/bg-testimonials.jpg');
+        background-image: url('../../assets/images/bg-testimonials-min.jpg');
     }
 
 .testimonial__img {

@@ -1,7 +1,7 @@
 .testimonial {
 
     &__bg-cover {
-        background-image: url('../../assets/images/bg-testimonials.jpg');
+        background-image: url('../../assets/images/bg-testimonials-min.jpg');
     }
 
     &__img {
