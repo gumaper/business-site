@@ -13228,8 +13228,24 @@ p {
         box-shadow: 0 0 10px 0 rgba(52, 198, 211, 0.4);
         padding: 50px 0;
         margin: 40px 0;
-        text-align: center;    
+        text-align: center;  
+        transition: all .3s ease-out;  
     }
+
+.price--box:hover {
+        background-color: #64707b;
+        color: #fff;
+    }
+
+.price--box:hover p {
+            color: #fff;
+            transition: all .5s ease-out; 
+        }
+
+.price--box:hover a {
+            color: #fff;
+            transition: all .5s ease-out; 
+        }
 
 .price--box__middle {
         background-color: #34c6d3;
