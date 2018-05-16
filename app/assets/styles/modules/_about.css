@@ -1,8 +1,12 @@
 .about {
 
     &__content-box {
-        float: left;
-        height: 700px;
+        width: 100%;
+
+        @mixin atMedium {
+            float: left;
+            height: 700px;
+        }
 
         &-outer {
             width: 100%;
@@ -29,12 +33,19 @@
     }
 
     &__bg-diagonal {
-        width: 60%;
-        height: 700px;
-        float: right;
+        width: 100%;
+        height: 350px;
         background-image: url("../../assets/images/bg-about-min.jpg");
-        border-left: 200px solid white;
-        border-top: 700px solid transparent;
+
+        @mixin atMedium {
+            width: 60%;
+            height: 700px;
+            float: right;
+            background-image: url("../../assets/images/bg-about-min.jpg");
+            border-left: 200px solid white;
+            border-top: 700px solid transparent;
+        }
+
     }
 
 }

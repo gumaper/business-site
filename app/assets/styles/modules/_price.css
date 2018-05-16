@@ -1,5 +1,4 @@
 .price {
-    width: 100%;
 
     &__info strong {
         font-weight: 700;
@@ -31,8 +30,10 @@
 
     &--box__middle {
         background-color: $mainGreen;
-        padding: 90px 0;
-        margin: 0;
+        
+        @mixin atMedium {
+            padding: 90px 0;
+        }
     }
 
     &__title {

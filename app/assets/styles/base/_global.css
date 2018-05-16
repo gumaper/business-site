@@ -20,6 +20,10 @@ h3 {
 
 p {
     color: #64707b;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 300;
+
+    @atSmall {
+        font-size: 1rem;
+    }
 }

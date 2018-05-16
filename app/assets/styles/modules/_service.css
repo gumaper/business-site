@@ -1,9 +1,14 @@
 .service {
-    
+
     &-item {
-        padding: 20px 0 20px 0;
+        padding: 20px 0 10px 0;
         margin-bottom: 20px;
         cursor: pointer;
+
+        &--no-margin {
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
 
         &__icon {
             color: $mainGreen;
@@ -15,14 +20,23 @@
         }
 
         &__title h3{
-            font-size: 1.25rem;
+            font-size: 1rem;
             font-weight: 400;
             margin: 0 0 10px 0;
+
+            @mixin atMedium {
+                font-size: 1.25rem;
+            }
         }
 
         &__description p {
             margin: 0;
+            font-size: 0.7rem;
             padding-left: 85px;
+
+            @mixin atMedium {
+                font-size: 1rem;
+            }
         }
 
     }

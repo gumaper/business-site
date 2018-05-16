@@ -1,11 +1,16 @@
 .btn {
-    padding: 12px 26px;
+    padding: 9px 21px;
     border: 2px solid #fff;
     border-radius: 0;
-    font-size: 16px;
+    font-size: 0.8rem;
     font-weight: 400;
     text-transform: uppercase;
     color: #fff;
+
+    @mixin atMedium {
+        padding: 12px 26px;
+        font-size: 16px;
+    }
 
     &-home:hover {
         background-color: #fff;

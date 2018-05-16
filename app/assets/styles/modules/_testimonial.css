@@ -20,11 +20,19 @@
     }
     
     &__info-1 {
-        padding-right: 30px;
+        margin-bottom: 50px;
+
+        @mixin atMedium {
+            padding-right: 30px;
+        }
     }
 
     &__info-2 {
-        padding-left: 30px;
+       
+
+        @mixin atMedium {
+            padding-right: 30px;
+        }
     }
 
     &__text {

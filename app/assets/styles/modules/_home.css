@@ -25,10 +25,14 @@
 
     &__title {
         color: #fff;
-        font-size: 3.43rem;  
+        font-size: 1.6rem;  
         font-weight: 700;
         margin: 20px 0 20px 0;
         text-transform: uppercase;
+
+        @mixin atMedium {
+            font-size: 3.43rem; 
+        }
     }
 
     &__btn {
